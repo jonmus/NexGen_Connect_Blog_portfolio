@@ -1,5 +1,7 @@
 # NexGen Connect Blog Portfolio Website
-This is the personal brand portfolio website for NexGen Connect Blog (Momoh Mansaray), built with HTML, CSS, and JavaScript. It features:
+This is the personal brand portfolio website for NexGen Connect Blog (Momoh Mansaray), built with HTML, CSS, and JavaScript. 
+
+It features:
 
 - ✅ Responsive design with side navigation
 - ✅ Attractive styling
