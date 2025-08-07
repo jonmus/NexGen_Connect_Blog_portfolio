@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NexGen Connect Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">NexGen Connect Blog</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#subscribe">Subscribe</a>
+    </nav>
+    <button class="nav-toggle">&#9776;</button>
+  </header>
+
+  <aside class="sidebar">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#subscribe">Subscribe</a>
+  </aside>
+
+  <main>
+    <section id="hero">
+      <h1>Welcome to NexGen Connect Blog</h1>
+      <p>Sharing knowledge, tutorials, and inspiration</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am passionate about sharing technology, tutorials, and news to help people grow and stay informed.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Coming soon: tutorials, resources, and articles on web development, design, and more.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Tel: +23278884636</p>
+      <p>Email: <a href="mailto:jonathanmansaray11@gmail.com">jonathanmansaray11@gmail.com</a></p>
+      <p>Address: Imatt, Freetown, Sierra Leone</p>
+    </section>
+
+    <section id="subscribe">
+      <h2>Subscribe for Updates</h2>
+      <form>
+        <label for="subscriber-email">Email:</label>
+        <input type="email" id="subscriber-email" name="subscriber-email" placeholder="Your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="chatbot">
+    <button id="bot-toggle">Chat</button>
+    <div id="bot-window" class="hidden">
+      <div id="bot-messages"></div>
+      <input type="text" id="bot-input" placeholder="Type your message" />
+      <button id="bot-send">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
